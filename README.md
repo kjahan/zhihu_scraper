@@ -7,4 +7,4 @@ Zhihu scraper
 
 ## Run
 
-`python newspaper.py > output.html`
+`python scraper.py`

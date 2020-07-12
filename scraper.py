@@ -29,4 +29,5 @@ html = browser.page_source
 soup = BeautifulSoup(html)
 contents = soup.findAll("div", {"class": "RichContent-inner"})
 
-print(contents[0])
+with open("output.html", "w") as fp:
+    fp.write(str(contents[0]))
