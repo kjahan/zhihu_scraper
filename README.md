@@ -3,8 +3,8 @@ Zhihu scraper
 
 ## Activate conda env:
 
-`conda activate newspaper`
+`source zhihu_scraper/bin/activate`
 
 ## Run
 
-`python scraper.py`
+`python topic.py`
